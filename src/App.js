@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// Importando o React para usar JSX
+import Main from './components/Main'; // Importando o componente Main
+import './App.css'; // Importando o CSS para estilizar o componente
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	// Definindo o componente App como uma função
+	return (
+		<Main /> // Renderizando o componente Main dentro do App
+	);
 }
-
-export default App;

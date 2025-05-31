@@ -1,0 +1,21 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Build output
+dist
+build
+coverage
+
+# Dependencies
+node_modules
+
+# Outros arquivos gerados ou de configuração específica
+.DS_Store
+*.lock
+package-lock.json # Muitas vezes é preferível não formatar este
+yarn.lock       # ou este
